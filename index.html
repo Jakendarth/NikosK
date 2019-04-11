@@ -7,15 +7,45 @@
 <meta name="description" content="NikosK Github page">
 <meta name="author" content="NikosK">
 <meta name="keywords" content="NikosK,Kougiatsos,Robotics,Naval,Greece" >
-
 <link href="main.css" rel="stylesheet">
 <link rel="shortcut icon" href="static/iconified/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="static/iconified/apple-touch-icon-152x152.png"/>
 <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-<title>jakendarth.github.io/NikosK</title>
+<title>NikosK-Portofolio</title>
 </head>
 <body>
-    <h1>Nikos K.</h1>
-    <h2>Naval Architect and Marine Engineer</h2>
+    <div id="intro">
+        <h1>Nikos Kougiatsos</h1>
+        <h2>Naval Architect and Marine Engineer</h2>
+    </div>
+    <div id="wrapper">
+        <div id="photo">
+            <img src="img/nikosk.jpg" title="Nikos K." alt="NikosK" width="100px">
+        </div>
+        <div id="info">
+            <p>
+                <font color="blue">E-mail:</font> <a href = "mailto: kougiatsosn@gmail.com">kougiatsosn@gmail.com</a>
+
+            </p>
+        </div>
+        <div id="Social">
+            <div class="github-widget" data-username="Jakendarth"></div>
+            <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+            <div id="links">
+                <a href="https://www.linkedin.com/in/nkougiatsos/"><img src="img/linkedin.png" title="LinkedIn" alt="LinkedIn" width="50px"></a>
+                <a href="https://github.com/Jakendarth"><img src="img/github.png" title="Github" alt="Github" width="50px"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <div class="calendar">
+        Loading the data just for you.
+    </div>
+    <script>
+            <!--GitHubCalendar(".calendar", "Jakendarth");-->
+            // or enable responsive functionality
+            GitHubCalendar(".calendar", "Jakendarth", { responsive: true });
+    </script>
 </body>
 </html>
