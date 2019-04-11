@@ -1,0 +1,15 @@
+body,html{
+    height:100%;
+
+}
+
+body{
+    font-family:'Ubuntu Monospace';
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    overflow:hidden;
+    margin:0 auto;
+    background-color: #5a5959;
+    margin:0 auto;
+}
